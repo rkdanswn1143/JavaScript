@@ -1,0 +1,94 @@
+aler
+VM18:1 Uncaught ReferenceError: aler is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM18:1
+alert("안녕하세요.")
+undefined
+a=10
+10
+alert(a)
+undefined
+confirm("종료 하시겠습니까?")
+true
+prompot("당신의 이름은?")
+VM484:1 Uncaught ReferenceError: prompot is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM484:1
+prompt("당신의 이름은?")
+'강종우'
+prompt("종료 하시겠습니까?(예/아니오)","예")
+'아니오'
+name="강종우"
+'강종우'
+promopt(name,"님 환영합니다")
+VM876:1 Uncaught ReferenceError: promopt is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM876:1
+console.log(name+"님 환영합니다")
+VM968:1 강종우님 환영합니다
+undefined
+Document.write("내이름은"+name+"입니다:)
+VM1254:1 Uncaught SyntaxError: Invalid or unexpected token
+document.write("제 이름은 "+name+"입니다")
+undefined
+let result
+undefined
+result = 10
+10
+result = 20
+20
+print(result)
+undefined
+const number = 10
+undefined
+number
+10
+number = 20
+VM1720:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:8
+(anonymous) @ VM1720:1
+let age = 23
+undefined
+console.log(name+"님 나이는"+age+"세 입니다.")
+VM1948:1 강종우님 나이는23세 입니다.
+undefined
+console.log('${name}님의 나이는 ${age}세 입니다')
+VM2056:1 ${name}님의 나이는 ${age}세 입니다
+undefined
+console.log(`${name}+"님 나이는"${age}세 입니다.`)
+VM2287:1 강종우+"님 나이는"23세 입니다.
+undefined
+let student = {
+    major : "컴퓨터공학부",
+    idNum : 202095002,
+    name : "강종우"
+}
+undefined
+student
+{major: '컴퓨터공학부', idNum: 202095002, name: '강종우'}
+student.name
+'강종우'
+student["major"]
+'컴퓨터공학부'
+major
+VM2937:1 Uncaught ReferenceError: major is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2937:1
+let id = Symbol()
+undefined
+const member = {
+    name : "김지연",
+    [id] : 12345
+}
+undefined
+const member = {
+    name : "강종우",
+    [id] : 12345
+}
+undefined
+member
+{name: '강종우', Symbol(): 12345}
+member[id]
+12345
+member
+{name: '강종우', Symbol(): 12345}
